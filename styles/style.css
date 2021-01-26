@@ -214,8 +214,7 @@ h1{
  display: inline-block;
 }
 
-.navbar ul li a {
- /*float: left;*/  
+.navbar ul li a { 
  width: 100px;
  background-color:transparent;
  color:black;
