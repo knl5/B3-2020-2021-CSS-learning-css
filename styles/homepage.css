@@ -1,3 +1,22 @@
 body{
-    background-image: src="image_codage.jpg";
+    background-color: black;
+    display: flex;
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+section{
+    height: 700px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+#test{
+    background-image: url(../image_codage.jpg);
+
+}
+
+#lien{
+    background-color: black;
 }
