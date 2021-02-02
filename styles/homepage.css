@@ -7,16 +7,23 @@ body{
     box-sizing: border-box;
 }
 section{
-    height: 700px;
+    height: 400px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
-#test{
+.test{
     background-image: url(../image_codage.jpg);
 
 }
 
-#lien{
+.lien{
     background-color: black;
+    display: inline-flex;
+    
 }
+.lien div{
+    border: 2px solid white;
+    width: 50%;
+}
+

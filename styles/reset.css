@@ -26,11 +26,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-#fond {
+.fond {
 	max-width: 100%;
 	height: auto;
 }
-#profil{
-	max-width:100%;
-	size: auto;
+.profil{
+	width: 300px;
+	height: auto;
 }
