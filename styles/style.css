@@ -177,11 +177,16 @@ header{
   right: 0;
   height: 80px;
 }
+header h1 a{
+  list-style-type: none;
+  text-decoration:none;
+}
 h1{
   color: red;
   letter-spacing: 2px;
   font-size: 40px;
   margin-left: 10px;
+  text-decoration: none;
   display: inline;
 }
 .title{
@@ -216,7 +221,7 @@ h1{
 .navbar li {
  margin: 20px;
  display: inline-block;
- border-bottom: 1px solid;
+ /*border-bottom: 1px solid;*/
  border-radius: 10px;
 }
 
@@ -232,6 +237,7 @@ h1{
 
 ul li a:hover {
  background-color: blue;
+ border-radius: 10px;
 } 
 
 /*.navbar ul li a::before{
