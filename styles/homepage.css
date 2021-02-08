@@ -14,9 +14,15 @@ section{
     background-image: url(../image_codage.jpg);
 
 }
+h1 a{
+    
+    text-decoration: none;
+
+}
 .test h1{
     margin-top: 100px;
-    color: yellow;
+    color: white;
+
 }
 .navbar ul li a{
     background-color: transparent;
@@ -29,13 +35,68 @@ header{
     position: absolute;
 }
 
-.lien{
-    background-color: black;
-    display: inline-flex;
-    
-}
-.lien div{
-    border: 2px solid white;
-    width: 50%;
+.test p{
+    padding: 0 100px 0 100px;
 }
 
+.lien{
+    position: relative;
+    padding: 100px 50px 100px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.one_third{
+    width: 25%;
+}
+
+.number{
+    margin: 25px O;
+}
+
+.num{
+    font-size: 264px;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
+    line-height: 100%;
+    height: 165px;
+    overflow: hidden;
+    margin-bottom: -10px;
+}
+
+.section h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.section p{
+    margin-top: 15px;
+}
+
+.h2margin{
+    margin-bottom: 0;
+}
+.bouton span{
+    align-items: center;
+}
+a.bouton-dot{
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+
+a.bouton-dot:before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 90%;
+    top: -7px;
+    position: absolute;
+    transition: .3s;
+}
