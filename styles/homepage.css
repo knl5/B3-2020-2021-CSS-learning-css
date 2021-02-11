@@ -2,7 +2,7 @@ body{
     /*background-color: black;*/
     display: flex;
     height: 100%;
-    margin-top: 0px;
+    margin-top: 80px;
 }
 section{
     height: 400px;
@@ -12,18 +12,11 @@ section{
   }
 .test{
     background-image: url(../image_codage.jpg);
-
 }
 h1 a{
-    
     text-decoration: none;
-
 }
-.test h1{
-    margin-top: 100px;
-    color: white;
 
-}
 .navbar ul li a{
     background-color: transparent;
 }
@@ -39,6 +32,19 @@ header{
     padding: 0 100px 0 100px;
 }
 
+.intro{
+    margin-top: 80px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    border: blue 2px;
+    border-radius: 20px;
+    padding: 15px;
+}
+h3{
+    color: orange;   
+}
 .lien{
     position: relative;
     padding: 100px 50px 100px 50px;
@@ -77,9 +83,6 @@ header{
     margin-top: 15px;
 }
 
-.h2margin{
-    margin-bottom: 0;
-}
 .bouton span{
     align-items: center;
 }
