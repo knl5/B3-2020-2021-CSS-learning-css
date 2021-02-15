@@ -8,6 +8,7 @@ body{
   text-align: center;
   align-items: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -179,6 +180,7 @@ header{
   height: 80px;
 }
 
+/*bouton up*/
 .back-to-top-link {
   display: inline-block;
   text-decoration: none;
@@ -294,6 +296,12 @@ ul li a::after{
 ul li a:hover::after{
   transform: scale(1);
 }
+
+
+/*@media (max-width: 852px){
+  
+}*/
+
 
 
 /*animation cube 3D*/
