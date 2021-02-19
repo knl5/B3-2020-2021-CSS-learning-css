@@ -1,29 +1,35 @@
-body{
+body {
     /*background-color: black;*/
     display: flex;
     height: 100%;
     margin-top: 80px;
     color: white;
 }
-section{
+
+section {
     height: 400px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-
-.welcome{
-    background-image: url(../image_codage.jpg);
 }
-.welcome p{
+
+.welcome {
+    background-image: url(../image_codage.jpg);
+    display: flex;
+    align-self: center;
+}
+
+.welcome p {
     margin: 20px 100px 20px 100px;
 }
-.test{
+
+.test {
     display: flex;
     flex-direction: row;
     align-self: center;
 }
-.test .intro{
+
+.test .intro {
     width: 500px;
     margin: 1em;
     border-radius: 20px;
@@ -31,49 +37,57 @@ section{
     text-align: center;
     background-color: rgb(15, 15, 15);
 }
-h1{
+
+h1 {
     margin-top: 10px;
 }
-h1 a{
+
+h1 a {
     text-decoration: none;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     background-color: transparent;
 }
-header{
+
+header {
     background-color: black;
     position: absolute;
 }
 
-div{
+div {
     display: flex;
     flex-direction: column;
     padding: 15px;
 }
-h3{
-    color: orange;  
-    text-align: center; 
+
+h3 {
+    color: orange;
+    text-align: center;
 }
-.lien{
+
+.lien {
     position: relative;
-    padding: 100px 50px 100px 50px;
+    padding: 100px 0px 100px 0px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
     flex-direction: row;
-    align-self: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
     background-color: black;
 }
 
-.one_third{
+.one_third {
     width: 25%;
 }
 
-.number{
+.number {
     margin: 25px O;
 }
 
-.num{
+.num {
     font-size: 264px;
     font-weight: 700;
     color: #000000;
@@ -83,44 +97,56 @@ h3{
     overflow: hidden;
     margin-bottom: -10px;
 }
-/*@media screen and (max-width: 1020px){
-.one_third {
-    width: 100%;
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-}*/
 
-.section h2{
+.section h2 {
     font-size: 30px;
     color: #fff;
     font-weight: 700;
     line-height: 100%;
 }
 
-.section p{
+.section p {
     margin-top: 15px;
 }
 
-.bouton span{
-    align-items: center;
-}
-a.bouton-dot{
-    color: #fff;
-    font-size: 16px;
-    position: relative;
+.bouton {
+    align-self: center;
 }
 
-a.bouton-dot:before{
-    content: "";
-    width: 30px;
-    height: 30px;
+a.bouton-dot {
+    /*color: #fff;*/
+    font-size: 16px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     border: 2px solid #fff;
     background: transparent;
     border-radius: 90%;
-    top: -7px;
     position: absolute;
-    transition: .3s;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+    .test{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        margin: 10px;
+    }
+    .welcome{
+        width: 100%;
+        height: auto;
+    }
+    .lien{
+        flex-direction: column;
+    }
+    .one_third{
+    width: 100%;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    }
 }

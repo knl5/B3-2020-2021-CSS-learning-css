@@ -11,26 +11,29 @@ html, body {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 
+/* HTML5 display-role reset for older browsers */
 
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 .fond {
 	max-width: 100%;
 	height: auto;
 }
-.profil{
+
+.profil {
 	width: 300px;
 	height: auto;
 }
